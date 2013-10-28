@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_26" class="java.beans.XMLDecoder"> 
+ <object class="java.util.Vector"> 
+  <void method="add"> 
+   <object class="Piece"> 
+    <void property="ampoule"> 
+     <object class="java.util.Vector"> 
+      <void method="add"> 
+       <object class="Ampoule"> 
+        <void property="consoApp"> 
+         <double>1.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>Ampoule 1</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="Ampoule"> 
+        <void property="consoApp"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>Ampoule 2</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="Ampoule"> 
+        <void property="consoApp"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>Ampoule 3</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="appareil"> 
+     <object class="java.util.Vector"> 
+      <void method="add"> 
+       <object class="Appareil"> 
+        <void property="consoApp"> 
+         <double>5.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>Refrigérateur</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="Appareil"> 
+        <void property="consoApp"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>4</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="Appareil"> 
+        <void property="consoApp"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>4</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="consoTotale"> 
+     <double>33.0</double> 
+    </void> 
+    <void property="fenetre"> 
+     <object class="java.util.Vector"> 
+      <void method="add"> 
+       <object class="Fenetre"> 
+        <void property="nom"> 
+         <string>Fenetre 1</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="habitant"> 
+     <object class="java.util.Vector"> 
+      <void method="add"> 
+       <object class="Habitant"> 
+        <void property="nom"> 
+         <string>Habitant 1</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="lExigeeEclairee"> 
+     <boolean>true</boolean> 
+    </void> 
+    <void property="nom"> 
+     <string>Pièce N° 0</string> 
+    </void> 
+    <void property="radiateur"> 
+     <object class="java.util.Vector"> 
+      <void method="add"> 
+       <object class="Radiateur"> 
+        <void property="consoApp"> 
+         <double>3.0</double> 
+        </void> 
+        <void property="degreParHeure"> 
+         <double>5.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>Radiateur 1</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="Radiateur"> 
+        <void property="consoApp"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="degreParHeure"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>Radiateur 2</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="Radiateur"> 
+        <void property="consoApp"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="degreParHeure"> 
+         <double>4.0</double> 
+        </void> 
+        <void property="nomApp"> 
+         <string>Radiateur 3</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="sourceEnergie"> 
+     <object class="SourceEnergie"> 
+      <void property="nomSource"> 
+       <string>Solaire</string> 
+      </void> 
+      <void property="quantite"> 
+       <double>500.0</double> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="tExigee"> 
+     <double>27.0</double> 
+    </void> 
+    <void property="thermometre"> 
+     <object class="Thermometre"> 
+      <void property="valeurExterieur"> 
+       <double>12.0</double> 
+      </void> 
+      <void property="valeurInterieur"> 
+       <double>23.0</double> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <boolean>false</boolean> 
+ <boolean>true</boolean> 
+ <int>6</int> 
+</java> 
